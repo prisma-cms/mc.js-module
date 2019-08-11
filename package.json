@@ -1,7 +1,7 @@
 {
-  "name": "@prisma-cms/module-bilerplate",
-  "description": "Module boilerplate for @prisma-cms/server",
-  "version": "1.1.5",
+  "name": "@prisma-cms/mc.js-module",
+  "description": "mc.js module for @prisma-cms",
+  "version": "1.2.0",
   "main": "src/",
   "files": [
     "src"
@@ -15,11 +15,16 @@
   },
   "dependencies": {
     "@prisma-cms/prisma-module": "latest",
+    "bcryptjs": "^2.4.3",
     "chalk": "^2.4.1",
-    "merge-graphql-schemas": "latest"
+    "merge-graphql-schemas": "latest",
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
     "@prisma-cms/server": "latest",
+    "@prisma-cms/sms-module": "latest",
+    "@prisma-cms/upload-module": "latest",
+    "@prisma-cms/user-module": "latest",
     "expect": "^23.6.0",
     "graphql": "*",
     "mocha": "^5.2.0",
@@ -40,10 +45,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prisma-cms/module-boilerplate.git"
+    "url": "git+https://github.com/prisma-cms/mc.js-module.git"
   },
   "bugs": {
-    "url": "https://github.com/prisma-cms/module-boilerplate/issues"
+    "url": "https://github.com/prisma-cms/mc.js-module/issues"
   },
-  "homepage": "https://github.com/prisma-cms/module-boilerplate#readme"
+  "homepage": "https://github.com/prisma-cms/mc.js-module#readme"
 }

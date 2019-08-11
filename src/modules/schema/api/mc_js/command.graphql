@@ -1,0 +1,9 @@
+type Mutation {
+  runCommand(data: RunCommandInput!): Boolean!
+}
+
+input RunCommandInput {
+  playerId: ID!
+  worldId: ID!
+  command: String!
+}

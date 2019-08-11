@@ -1,0 +1,28 @@
+type Mutation {
+  login(data: LoginUserInput!): McJsAuthPayload!
+}
+
+input LoginUserInput {
+  email: String!
+  password: String!
+}
+
+type McJsAuthPayload {
+  token: String!
+  user: User!
+}
+
+input WorldCreateInput {
+  gamemode: Gamemode!
+}
+
+input PlayerCreateInput {
+  worldId: ID!
+  gamemode: Gamemode!
+}
+
+input PlayerUpdateInput {
+  cursor: Int
+  data: String
+}
+

@@ -1,5 +1,7 @@
 
-## Module boilerplate server for [@prisma-cms](https://github.com/prisma-cms)
+## mc.js modul for [@prisma-cms](https://github.com/prisma-cms)
+
+Powered by https://github.com/ian13456/mc.js
 
 ### Usage
 
