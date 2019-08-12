@@ -86,7 +86,7 @@ class Module extends PrismaModule {
 
     }
     else {
-      console.error(chalk.red(`Schema file ${schemaFile} did not loaded`));
+      // console.error(chalk.red(`Schema file ${schemaFile} did not loaded`));
     }
 
 
