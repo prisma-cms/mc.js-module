@@ -1,3 +1,8 @@
+1.2.2
+===============================
+- Fix SettingsCreateInput
+- Added World::CreatedBy
+
 1.2.1
 ===============================
 - Fix resolvers

@@ -82,6 +82,7 @@ class Module extends PrismaModule {
       baseSchema = fs.readFileSync(schemaFile, "utf-8");
 
       baseSchema = this.cleanupApiSchema(baseSchema, [
+        "SettingsCreateInput",
       ]);
 
     }

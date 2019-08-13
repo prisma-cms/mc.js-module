@@ -1,0 +1,5 @@
+type World {
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  CreatedBy: User @relation(name: "MinecraftUserWorlds")
+}

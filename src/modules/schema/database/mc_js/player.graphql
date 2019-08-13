@@ -1,0 +1,4 @@
+type Player{
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
